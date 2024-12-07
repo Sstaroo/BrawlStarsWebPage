@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawl Stars Stats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Brawl Stars Stats</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#stats">Statistics</a></li>
+                <li><a href="#queries">Queries</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <main>
+        <section id="about">
+                <h2>About</h2>
+                <p>Welcome to <strong>Brawl Stars Stats</strong>, your go-to page for detailed statistics, rankings, and insights about Brawl Stars! Explore the top players, clubs, and brawlers!</p> 
+            </section>
+
+            <section>
+                <h2>Why Brawl Stars Stats?</h2>
+                <p>
+                    Ever wondered who ^`^ys at the top of the leaderboard? Or which clubs are dominating the global scene?
+                    Maybe you're curious about which brawler stands out this season? Look no further ^`^there, you ^`^yll got it all.
+                </p>
+            </section>
+            <section>
+                <h2>What You ^`^yll Find Here</h2>
+                <h3>1. Stats Section  ^=^s^j</h3>
+                <p>Get an in-depth look at:</p>
+                <ul>
+                    <li><strong>Top Players:</strong> Discover who ^`^ys leading the charge in the Brawl Stars community..</li>
+                    <li><strong>Top Clubs:</strong> Find out which teams are ruling the leaderboards and where you might want to belong.</li>
+                    <li><strong>Top Brawlers:</strong> Explore the best-performing brawlers to help you strategize your next match.</li>
+                </ul>
+                <h3>2. Query Statistics  ^=^t^m</h3>
+                <p>
+                    Have specific questions or looking for tailored insights? Our <strong>Query Statistics</strong> section is your personal
+                    research assistant! Simply input the data you ^`^yre interested in, and our system will generate a detailed table just for you.
+                    Whether you're analyzing player progress, comparing brawlers, or digging into club stats, this tool puts the power of
+                    analytics in your hands.
+                </p>
+            </section>
+            <section>
+                <h2>For Players, Fans, and Strategists</h2>
+                <p>
+                    At Brawl Stars Stats, we don ^`^yt just display numbers; we tell stories. Each ranking, each insight, and each table just for you.
+                    Whether you're analyzing player progress, comparing brawlers, or digging into club stats, this tool puts the power of
+                    analytics in your hands.
+                </p>
+            </section>
+            <section>
+                <h2>For Players, Fans, and Strategists</h2>
+                <p>
+                    At Brawl Stars Stats, we don ^`^yt just display numbers; we tell stories. Each ranking, each insight, and each table
+                    is a window into the dynamic world of Brawl Stars. Whether you ^`^yre here to climb the ranks, scout the competition,
+                    or just geek out over stats, there ^`^ys something for everyone.
+                </p>
+                <p>
+                    So, are you ready to take your Brawl Stars journey to the next level? Explore, analyze, and conquer with
+                    <strong>Brawl Stars Stats</strong> ^`^tyour ultimate ally in the battlefield!
+                </p>
+            </section>
+    
+            <section id="stats">
+                    <h2>Statistics</h2>
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <h3>Top Players</h3>
+                            <p>Discover the highest-ranked players in the game.</p>
+                            <a href="top_players.php" class="btn">See Top Players</a> <!-- Bot  n para Top Players -->
+                        </div>
+                        <div class="stat-box">
+                            <h3>Top Clubs</h3>
+                            <p>View rankings and details about the best clubs worldwide.</p>
+                            <a href="top_clubs.php" class="btn">See Top Clubs</a> <!-- Bot  n para Top Clubs -->
+                        </div>
+                        <div class="stat-box">
+                            <h3>Top Brawlers</h3>
+                            <p>See which brawlers dominate the meta right now!</p>
+                            <a href="top_brawlers.php" class="btn">See Top Brawlers</a> <!-- Bot  n para Top Brawlers -->
+                        </div>
+                    </div>
+            </section>
+    
+            <section id="queries">
+            <h2>Query Statistics</h2>
+            <div class="query-forms">
+                    <!-- Consulta 1 -->
+                    <form action="consulta1.php" method="GET">
+                        <h3>Paises con mas Trofeos</h3>
+                        <label for="mes">Escribe un Mes:</label>
+                        <input type="text" id="mes" name="mes" placeholder="Enter a Month">
+                        <button type="submit" value="Consultar">Submit Query</button>
+                    </form>
+    
+                    <!-- Consulta 2 -->
+                    <form action="consulta2.php" method="GET">
+                        <h3>Jugador con mas trofeos por Brawler</h3>
+                        <label for="player-1">Brawler</label>
+                        <input type="text" id="nombre_brawler" name="nombre_brawler" placeholder="Enter brawler name">
+                        <label for="player-2">Month</label>
+                        <input type="text" id="nombre_mes" name="nombre_mes" placeholder="Enter Month">
+                        <button type="submit">Submit Query</button>
+                    </form>
+    
+                    <!-- Consulta 3 -->
+                    <form action="consulta3.php" method="GET">
+                        <h3>Evolucion de Club</h3>
+                        <label for="player-1">Club Tag</label>
+                        <input type="text" id="tag_club" name="tag_club" placeholder="Club Tag">
+                        <button type="submit">Submit Query</button>
+                    </form>
+    
+                    <!-- Consulta 4 -->
+                    <form action="consulta4.php" method="GET">
+                        <h3>Top Brawlers por Pais</h3>
+                        <label for="month-1">Choose a Month:</label>
+                        <input type="text" id="nombre_mes" name="nombre_mes" placeholder="Mes">
+                        <label for="month-1">Choose a Country:</label>
+                        <input type="text" id="nombre_mes" name="nombre_pais" placeholder="Pais">
+                        <button type="submit">Submit Query</button>
+                    </form>
+                </div>
+            </section>
+     </main>
+    
+     <footer>
+            <p>&copy; 2024 Brawl Stars Stats. All rights reserved.</p>
+     </footer>
+</body>
+</html>
+

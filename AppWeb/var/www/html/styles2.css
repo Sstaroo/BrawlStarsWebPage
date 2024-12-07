@@ -1,0 +1,87 @@
+/* Estilo general */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdf5f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    text-align: center;
+    color: #bf5f82;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+/* Tabla */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: #ffe2ec;
+    color: #bf5f82;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #fff;
+}
+
+tr:nth-child(even) td {
+    background-color: #f9d4e1;
+}
+
+tr:hover td {
+    background-color: #fceff2;
+    cursor: pointer;
+}
+
+/* Mensaje de error */
+.error {
+    text-align: center;
+    font-size: 18px;
+    color: #d9534f;
+    margin-top: 20px;
+}
+
+/* Encabezado del documento */
+header {
+    text-align: center;
+    background-color: #bf5f82;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Enlace al inicio */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #bf5f82;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff80a6;
+    text-decoration: underline;
+}
