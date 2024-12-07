@@ -108,7 +108,7 @@ Security measures were implemented to prevent SQL injections and other vulnerabi
 *   Setting the error mode with PDO
 *   Error handling with try-catch
 
-### Preview and Visalization
+### Preview and Visualization
 You can check it out at https://youtu.be/J-L_O_B0i9Y?si=9eJY-6HnZbEskWy0 
 
 ### Conclusions
