@@ -108,6 +108,9 @@ Security measures were implemented to prevent SQL injections and other vulnerabi
 *   Setting the error mode with PDO
 *   Error handling with try-catch
 
+### Preview and Visalization
+You can check it out at https://youtu.be/J-L_O_B0i9Y?si=9eJY-6HnZbEskWy0 
+
 ### Conclusions
 
 This project provides a robust database and web application to analyze Brawl Stars data. Analysis of this data can help players understand game trends, improve their performance, and learn from the best.
