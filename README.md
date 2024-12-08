@@ -109,7 +109,7 @@ Security measures were implemented to prevent SQL injections and other vulnerabi
 *   Error handling with try-catch
 
 ### Preview and Visualization
-You can check it out at https://youtu.be/J-L_O_B0i9Y?si=9eJY-6HnZbEskWy0 
+You can check it out at [this video of the running page](https://youtu.be/J-L_O_B0i9Y?si=9eJY-6HnZbEskWy0)
 
 ### Conclusions
 
